@@ -1,0 +1,36 @@
+.addRentForm {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.divInput {
+    padding: 7px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-size: clamp(18px, 2vw, 15px);
+    padding: 3px;
+}
+
+input, textarea{
+    width: 95%;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.inputCustomQnt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    font-size: 1.3em
+}
+
+button {
+    height: 50px;
+}
